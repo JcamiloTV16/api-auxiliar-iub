@@ -15,7 +15,7 @@ const pool = new Pool({
 });
 
 app.get('/', (req, res) => {
-  res.json({ mensaje: "API Auxiliar (Express) funcionando 🚀" });
+  res.json({ mensaje: "API Auxiliar Express funcionando" });
 });
 
 app.get('/tipos-documento', async (req, res) => {
